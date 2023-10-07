@@ -1,0 +1,21 @@
+hello  
+public class Person {
+
+   private String name;
+
+   public Person() {}
+
+   public String getName() {
+     return name;
+   }
+
+   public Person setName(String name) {
+     this.name = name;
+     return this;
+   }
+ }
+
+ ArrayList<Person> persons = new ArrayList<Person>() {{
+    add(new Person().setName("a bear"));
+    add(new Person().setName("jafar "));
+ }}; free script from jafar
